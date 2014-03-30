@@ -10,7 +10,9 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 @property (assign) void *applicationState;
-@property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSWindow *mainWindow;
+@property (assign) IBOutlet NSOpenGLView *gameView;
+@property (assign) IBOutlet NSTextField *inputTextField;
 
 - (void) applicationWillFinishLaunching: (NSNotification *) notification;
 - (void) applicationWillTerminate: (NSNotification *) notification;
