@@ -1,0 +1,19 @@
+name:                parsing-game
+version:             1.0
+license:             AllRightsReserved
+author:              Irene Knapp
+maintainer:          irene.knapp@icloud.com
+category:            Game
+build-type:          Simple
+cabal-version:       1.14
+
+library parsing-game
+  hs-source-dirs: Haskell
+  exposed-modules:
+    ParsingGame
+  other-modules:
+    ParsingGame.Foreign
+  build-depends:
+    base >= 4.6.0.1 && < 5,
+    direct-opengl >= 1.0 && < 2,
+    text >= 1.1.0.1 && < 2
