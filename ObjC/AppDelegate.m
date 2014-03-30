@@ -7,12 +7,38 @@
 //
 
 #import "AppDelegate.h"
+#import "../dist/build/ParsingGame/Foreign_stub.h"
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+- (void) applicationWillFinishLaunching: (NSNotification *) notification
 {
-    // Insert code here to initialize your application
+    int hsArgc = 1;
+    char **hsArgv = malloc(sizeof(char *));
+    hsArgv[0] = "Parsing Game";
+    hs_init(&hsArgc, &hsArgv);
+    free(hsArgv);
+    
+    [self setApplicationState: parsingGameApplicationInit()];
+    if(![self applicationState]) {
+        goto error;
+    }
+    
+    return;
+    
+error:
+    NSLog(@"Failed to initialize application.");
+    exit(0);
+}
+
+
+- (void) applicationWillTerminate: (NSNotification *) notification {
+    if(![self applicationState])
+        return;
+    
+    parsingGameApplicationExit([self applicationState]);
+    hs_exit();
+    [self setApplicationState: NULL];
 }
 
 @end
