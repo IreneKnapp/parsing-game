@@ -1,14 +1,19 @@
 name:                parsing-game
 version:             1.0
-license:             AllRightsReserved
-author:              Irene Knapp
-maintainer:          irene.knapp@icloud.com
+license:             BSD3
+license-file:        LICENSE
+author:              Irene Knapp <irene.knapp@icloud.com>
+maintainer:          Irene Knapp <irene.knapp@icloud.com>
 category:            Game
 build-type:          Simple
 cabal-version:       1.14
+synopsis: Side-scrolling videogame with natural-language interface.
+description:
+  A side-scrolling platform videogame which is controlled solely through a
+  natural-language interface.  The intention is to showcase some technology
+  while also being interesting as a game.
 
-library parsing-game
-  hs-source-dirs: Haskell
+library
   exposed-modules:
     ParsingGame
   other-modules:
@@ -17,3 +22,10 @@ library parsing-game
     base >= 4.6.0.1 && < 5,
     direct-opengl >= 1.0 && < 2,
     text >= 1.1.0.1 && < 2
+    
+  hs-source-dirs: Haskell
+  default-language: Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/IreneKapp/parsing-game.git
