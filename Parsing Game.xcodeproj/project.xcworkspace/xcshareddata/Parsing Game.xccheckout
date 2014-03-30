@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AFEE02C5-A450-4D1A-B4F9-FEC34B9A3028</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Parsing Game</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>936F2AA8-89BE-4CFD-879A-4F6860D8100C</key>
+		<string>ssh://github.com/IreneKnapp/parsing-game.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Parsing Game/Parsing Game.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>936F2AA8-89BE-4CFD-879A-4F6860D8100C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/IreneKnapp/parsing-game.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>936F2AA8-89BE-4CFD-879A-4F6860D8100C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>936F2AA8-89BE-4CFD-879A-4F6860D8100C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>parsing-game</string>
+		</dict>
+	</array>
+</dict>
+</plist>

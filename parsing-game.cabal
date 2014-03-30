@@ -17,12 +17,13 @@ library
   exposed-modules:
     ParsingGame
   other-modules:
+    ParsingGame.Application
     ParsingGame.Foreign
   build-depends:
     base >= 4.6.0.1 && < 5,
     direct-opengl >= 1.0 && < 2,
-    text >= 1.1.0.1 && < 2
-    
+    text >= 1.1.0.1 && < 2,
+    transformers >= 0.3.0.0
   hs-source-dirs: Haskell
   default-language: Haskell2010
 
