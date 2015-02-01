@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -133,7 +133,7 @@
                         <constraints>
                             <constraint firstAttribute="height" constant="25" id="YMe-xW-6Gn"/>
                         </constraints>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" state="on" focusRingType="none" placeholderString="Type what you'd like to do!" drawsBackground="YES" usesSingleLineMode="YES" id="31m-mC-Agg">
+                        <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" state="on" focusRingType="none" placeholderString="Type what you'd like to do!" drawsBackground="YES" usesSingleLineMode="YES" id="31m-mC-Agg">
                             <font key="font" size="16" name="Helvetica"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -142,7 +142,7 @@
                             <outlet property="nextKeyView" destination="372" id="3pJ-fU-5T7"/>
                         </connections>
                     </textField>
-                    <openGLView focusRingType="none" appearanceType="aqua" colorSize="5bit_RGB_8bit_Alpha" depthSize="16bit" antiAliasingType="multisample" rendererType="accelerated" samplingRate="" useAuxiliaryDepthBufferStencil="NO" useDoubleBufferingEnabled="YES" allowOffline="YES" wantsBestResolutionOpenGLSurface="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p2Z-fq-Lo2">
+                    <openGLView focusRingType="none" appearanceType="aqua" colorSize="5bit_RGB_8bit_Alpha" depthSize="16bit" antiAliasingType="multisample" rendererType="accelerated" useAuxiliaryDepthBufferStencil="NO" useDoubleBufferingEnabled="YES" allowOffline="YES" wantsBestResolutionOpenGLSurface="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p2Z-fq-Lo2">
                         <rect key="frame" x="0.0" y="25" width="1000" height="475"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     </openGLView>
